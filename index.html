@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu Creation </title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <form id='Menu'>
+    <h4>MealClass</h4>
+    <input type="text" id='mealClass' />
+    <br />
+    <h4>Name</h4>
+    <textarea id='Name'></textarea>
+    <br />
+    <h4>Description</h4>
+    <textarea id='Description'></textarea>
+    <br />
+    <br />
+    <h4>Price</h4>
+    <textarea id='Price'></textarea>
+    <br />
+    <br />
+    <h4>Calories</h4>
+    <textarea id='Calories'></textarea>
+    <br />
+    <div id='check'>
+      <h4>Ingredients</h4>
+      <h4>Pork</h4>
+      <input type="checkbox" id="Pork" name="Pork">
+      <h4>Chicken</h4>
+      <input type="checkbox" id="Chicken" name="Chicken">
+      <h4>Nuts</h4>
+      <input type="checkbox" id="Nuts" name="Nuts">
+    </div>
+    </div>
+    <h4>Image File</h4>
+    <input type="file" id="ImageUpload"/>
+    <br />
+    <h4>Model File</h4>
+    <input type="file" id="ModelUpload"/>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <button type='submit'>Add/Update rewiew</button>
+  </form>
+  <br />
+  <h4>READ/DELETE</h4>
+  <ul id='reviews'></ul>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script src="main.js"></script>
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</body>
+
+</html>
